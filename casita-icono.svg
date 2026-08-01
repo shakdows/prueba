@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Icono de casa">
+  <path d="M3 15.2 16 4l13 11.2h-3.4L16 7.1 6.4 15.2Z" fill="#17513f"/>
+  <path d="M7 15.4h18V27a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1Z" fill="#17513f"/>
+  <path d="M16 18.2a2.6 2.6 0 0 1 2.6 2.6V28h-5.2v-7.2A2.6 2.6 0 0 1 16 18.2Z" fill="#b98a2e"/>
+  <rect x="3" y="15.2" width="26" height="2.4" rx="1.2" fill="#b98a2e"/>
+</svg>
