@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%20role%3D%22img%22%20aria-label%3D%22Icono%20de%20casa%22%3E%20%20%3Cpath%20d%3D%22M3%2015.2%2016%204l13%2011.2h-3.4L16%207.1%206.4%2015.2Z%22%20fill%3D%22%2317513f%22/%3E%20%20%3Cpath%20d%3D%22M7%2015.4h18V27a1%201%200%200%201-1%201H8a1%201%200%200%201-1-1Z%22%20fill%3D%22%2317513f%22/%3E%20%20%3Cpath%20d%3D%22M16%2018.2a2.6%202.6%200%200%201%202.6%202.6V28h-5.2v-7.2A2.6%202.6%200%200%201%2016%2018.2Z%22%20fill%3D%22%23b98a2e%22/%3E%20%20%3Crect%20x%3D%223%22%20y%3D%2215.2%22%20width%3D%2226%22%20height%3D%222.4%22%20rx%3D%221.2%22%20fill%3D%22%23b98a2e%22/%3E%3C/svg%3E">
 <title>Meridiano Propiedades · Inmobiliaria en Lima</title>
 <meta name="description" content="Inmobiliaria en Lima. Dinos qué buscas y en 24 horas te enviamos opciones reales en Miraflores, Barranco, San Isidro y Surco.">
 
@@ -108,7 +109,9 @@ section{padding:var(--s9) 0}
 }
 .nav.scrolled{border-bottom-color:var(--line)}
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:74px}
-.logo{display:flex;align-items:baseline;gap:var(--s2);font-family:var(--font-d);font-size:1.35rem}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--font-d);font-size:1.35rem}
+.logo-mark{width:28px;height:28px;flex:none}
+.logo-txt{display:flex;align-items:baseline;gap:var(--s2)}
 .logo b{font-weight:600}
 .logo span{font-family:var(--font-b);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint)}
 .nav-links{display:flex;align-items:center;gap:var(--s6)}
@@ -294,6 +297,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.72);padding:var(--s8) 0 var
 .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:var(--s7);padding-bottom:var(--s7);
   border-bottom:1px solid rgba(255,255,255,.1)}
 footer .logo{color:#fff}
+footer .logo-mark path[fill="#17513f"]{fill:#f1ede6}
 footer h4{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:var(--s4);font-weight:600}
 footer ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:var(--s3);font-size:.9rem}
 footer a:hover{color:#fff}
@@ -314,7 +318,7 @@ footer a:hover{color:#fff}
 <!-- ============ NAV ============ -->
 <header class="nav" id="nav">
   <div class="wrap nav-in">
-    <a href="#" class="logo"><b>Meridiano</b><span>Propiedades</span></a>
+    <a href="#" class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-mark" role="img" aria-label="Icono de casa"><path d="M3 15.2 16 4l13 11.2h-3.4L16 7.1 6.4 15.2Z" fill="#17513f"/><path d="M7 15.4h18V27a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1Z" fill="#17513f"/><path d="M16 18.2a2.6 2.6 0 0 1 2.6 2.6V28h-5.2v-7.2A2.6 2.6 0 0 1 16 18.2Z" fill="#b98a2e"/><rect x="3" y="15.2" width="26" height="2.4" rx="1.2" fill="#b98a2e"/></svg><span class="logo-txt"><b>Meridiano</b><span>Propiedades</span></span></a>
     <nav class="nav-links">
       <a href="#propiedades">Propiedades</a>
       <a href="#proceso">Cómo trabajamos</a>
@@ -343,28 +347,85 @@ footer a:hover{color:#fff}
 
     <div class="frame">
       <!-- Reemplaza este SVG por: <img src="fachada.jpg" alt="Fachada de departamento en Barranco"> -->
-      <svg viewBox="0 0 400 500" role="img" aria-label="Ilustración de fachada limeña">
-        <rect width="400" height="500" fill="#e8e2d7"/>
-        <rect x="0" y="330" width="400" height="170" fill="#ddd6c9"/>
-        <rect x="46" y="120" width="140" height="240" fill="#f1ede6"/>
-        <rect x="214" y="70" width="140" height="290" fill="#e3ddd1"/>
-        <g fill="#17513f" opacity=".82">
-          <rect x="70" y="150" width="42" height="60" rx="3"/>
-          <rect x="122" y="150" width="42" height="60" rx="3"/>
-          <rect x="70" y="234" width="42" height="60" rx="3"/>
-          <rect x="122" y="234" width="42" height="60" rx="3"/>
-          <rect x="238" y="104" width="40" height="56" rx="3"/>
-          <rect x="290" y="104" width="40" height="56" rx="3"/>
-          <rect x="238" y="186" width="40" height="56" rx="3"/>
-          <rect x="290" y="186" width="40" height="56" rx="3"/>
-          <rect x="238" y="268" width="40" height="56" rx="3"/>
-          <rect x="290" y="268" width="40" height="56" rx="3"/>
-        </g>
-        <rect x="46" y="112" width="140" height="8" fill="#b98a2e"/>
-        <rect x="214" y="62" width="140" height="8" fill="#b98a2e"/>
-        <circle cx="120" cy="410" r="34" fill="#17513f" opacity=".25"/>
-        <circle cx="300" cy="424" r="26" fill="#17513f" opacity=".18"/>
-      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Ilustración de una casa en venta con jardín">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f4ed"/>
+      <stop offset="1" stop-color="#e4ebe6"/>
+    </linearGradient>
+    <linearGradient id="muro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfbf7"/>
+      <stop offset="1" stop-color="#f1ece1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cielo y sol -->
+  <rect width="400" height="500" fill="url(#cielo)"/>
+  <circle cx="312" cy="116" r="72" fill="#b98a2e" opacity=".14"/>
+  <circle cx="312" cy="116" r="44" fill="#b98a2e" opacity=".12"/>
+
+  <!-- Suelo -->
+  <rect x="0" y="380" width="400" height="120" fill="#e3ded2"/>
+  <rect x="0" y="380" width="400" height="9" fill="#d6cfbe"/>
+  <polygon points="176,388 214,388 240,470 150,470" fill="#dcd5c6"/>
+  <ellipse cx="196" cy="383" rx="142" ry="11" fill="#17513f" opacity=".07"/>
+
+  <!-- Árbol -->
+  <rect x="52" y="300" width="11" height="84" rx="3" fill="#7b6b52"/>
+  <circle cx="58" cy="288" r="33" fill="#17513f" opacity=".88"/>
+  <circle cx="33" cy="306" r="23" fill="#17513f" opacity=".78"/>
+  <circle cx="83" cy="304" r="25" fill="#17513f" opacity=".82"/>
+
+  <!-- Chimenea (detrás del techo) -->
+  <rect x="246" y="136" width="24" height="44" fill="#0e3629"/>
+  <rect x="241" y="130" width="34" height="9" rx="2" fill="#b98a2e"/>
+
+  <!-- Cuerpo de la casa -->
+  <rect x="100" y="215" width="192" height="169" fill="url(#muro)"/>
+  <rect x="100" y="215" width="192" height="169" fill="none" stroke="#e2dacb" stroke-width="1"/>
+
+  <!-- Techo -->
+  <polygon points="78,216 196,128 314,216" fill="#17513f"/>
+  <rect x="78" y="216" width="236" height="9" fill="#b98a2e"/>
+
+  <!-- Ventanas superiores -->
+  <g>
+    <rect x="128" y="245" width="48" height="46" rx="2" fill="#f3ddb0"/>
+    <rect x="128" y="245" width="48" height="46" rx="2" fill="none" stroke="#17513f" stroke-width="3"/>
+    <path d="M152 245v46M128 268h48" stroke="#fdfbf7" stroke-width="3"/>
+    <rect x="216" y="245" width="48" height="46" rx="2" fill="#f3ddb0"/>
+    <rect x="216" y="245" width="48" height="46" rx="2" fill="none" stroke="#17513f" stroke-width="3"/>
+    <path d="M240 245v46M216 268h48" stroke="#fdfbf7" stroke-width="3"/>
+  </g>
+
+  <!-- Ventanas inferiores -->
+  <g>
+    <rect x="118" y="312" width="42" height="44" rx="2" fill="#f3ddb0"/>
+    <rect x="118" y="312" width="42" height="44" rx="2" fill="none" stroke="#17513f" stroke-width="3"/>
+    <path d="M139 312v44" stroke="#fdfbf7" stroke-width="3"/>
+    <rect x="232" y="312" width="42" height="44" rx="2" fill="#f3ddb0"/>
+    <rect x="232" y="312" width="42" height="44" rx="2" fill="none" stroke="#17513f" stroke-width="3"/>
+    <path d="M253 312v44" stroke="#fdfbf7" stroke-width="3"/>
+  </g>
+
+  <!-- Puerta -->
+  <rect x="168" y="304" width="56" height="7" rx="2" fill="#b98a2e"/>
+  <path d="M176 384v-58a20 20 0 0 1 40 0v58Z" fill="#17513f"/>
+  <circle cx="208" cy="352" r="3.6" fill="#b98a2e"/>
+  <rect x="166" y="376" width="60" height="9" rx="3" fill="#d6cfbe"/>
+
+  <!-- Arbustos -->
+  <circle cx="112" cy="374" r="16" fill="#17513f" opacity=".72"/>
+  <circle cx="133" cy="379" r="11" fill="#17513f" opacity=".6"/>
+  <circle cx="276" cy="376" r="14" fill="#17513f" opacity=".72"/>
+  <circle cx="294" cy="380" r="10" fill="#17513f" opacity=".6"/>
+
+  <!-- Cartel EN VENTA -->
+  <rect x="330" y="398" width="6" height="72" rx="2" fill="#7b6b52"/>
+  <rect x="301" y="382" width="64" height="34" rx="4" fill="#17513f"/>
+  <text x="333" y="401" text-anchor="middle" fill="#f1ede6" font-family="Archivo, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.2">EN VENTA</text>
+  <rect x="312" y="406" width="42" height="2" fill="#b98a2e"/>
+</svg>
       <div class="frame-tag">
         <div class="k">Última publicación</div>
         <div class="v">Barranco · 3 dorm. · US$ 245,000</div>
@@ -679,7 +740,7 @@ footer a:hover{color:#fff}
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a href="#" class="logo"><b>Meridiano</b><span>Propiedades</span></a>
+        <a href="#" class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="logo-mark" role="img" aria-label="Icono de casa"><path d="M3 15.2 16 4l13 11.2h-3.4L16 7.1 6.4 15.2Z" fill="#17513f"/><path d="M7 15.4h18V27a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1Z" fill="#17513f"/><path d="M16 18.2a2.6 2.6 0 0 1 2.6 2.6V28h-5.2v-7.2A2.6 2.6 0 0 1 16 18.2Z" fill="#b98a2e"/><rect x="3" y="15.2" width="26" height="2.4" rx="1.2" fill="#b98a2e"/></svg><span class="logo-txt"><b>Meridiano</b><span>Propiedades</span></span></a>
         <p style="margin-top:var(--s4);font-size:.9rem;max-width:38ch">Inmobiliaria en Lima. Venta, alquiler y tasación de departamentos, casas y oficinas.</p>
       </div>
       <div>
